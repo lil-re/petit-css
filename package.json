@@ -5,8 +5,8 @@
   "main": "index.css",
   "scripts": {
     "build": "node src/builder.js",
-    "minify": "node src/minifier.js",
-    "generate": "node src/builder.js && node src/minifier.js"
+    "minify": "node src/minify.js",
+    "generate": "node src/builder.js && node src/minify.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/lil-re/petit-css/issues"
   },
-  "homepage": "http://petitcss.lil.re",
+  "homepage": "https://lil-re.github.io/petit-css",
   "devDependencies": {
     "clean-css": "^5.3.3"
   }

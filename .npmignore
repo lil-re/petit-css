@@ -1,13 +1,6 @@
 .idea
 .npmignore
+docs
 node_modules
-builder.js
-src/button
-src/card
-src/code
-src/form
-src/grid
-src/list
-src/navigation
-src/table
-src/typography
+src/minify.js
+README.md
